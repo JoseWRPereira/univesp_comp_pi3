@@ -171,7 +171,8 @@ Footer
 # ==========================
 # ==========================
 # dependencies
-front_end/node_modules
+dev/front/node_modules
+front/node_modules
 /node_modules
 /.pnp
 .pnp.js
