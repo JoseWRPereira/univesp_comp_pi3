@@ -1,11 +1,23 @@
-# Back End do projeto Integrador
+# *Back-end* do projeto Integrador
+
+## Ferramentas
+* Framework: [**Flask**](https://flask.palletsprojects.com/en/2.2.x/)
+* Banco de Dados: [**PostgreSQL**](https://www.postgresql.org/)
+* Teste de API: [**Postman**](https://www.postman.com/)
+
 
 # Como utilizar
 
-Crie um ambiente virtual e execute o requirements.txt
+Ambiente virtual para desenvolvimento da aplicação em Flask
+```bash
+# Diretório para executar os seguintes comandos:
+~/univesp_comp_pi3/dev/back $
 
-```
-virtualenv -p python3 env
+# Criação do ambiente virtual
+ virtualenv -p python3 env
+# ou
+python3 -m venv env
+
 
 ## Ativar o ambiente virtual 
 source env/bin/activate
@@ -14,3 +26,23 @@ source env/bin/activate
 ## Instalar requisitos 
 pip3 install -r requirements.txt
 ```
+
+
+Container (*Docker*) para banco de dados
+
+```bash
+# Diretório para executar os seguintes comandos:
+~/univesp_comp_pi3/dev $
+
+#Execute o comando para subir o ambiente
+docker-compose up
+
+
+# Após reiniciar o docker, pode ocorrer problemas, então remova a pasta
+sudo rm -rf postgres-data/
+
+# E remova o volume criado pelo docker
+docker-compose down -v
+
+```
+
