@@ -11,11 +11,11 @@ Este projeto tem por objetivo possibilitar um registro e acompanhamento mais det
 
 | RA      | Nome                               | Curso            | Unidade |
 |:-------:|:----------------------------------:|:----------------:|:--------|
-| 2012272 | André Santos Barros da Silva       | Ciência de Dados |         |
+| 2012272 | André Santos Barros da Silva       | Ciência de Dados | Jandira |
 | 1712316 | José Vilson Bezerra de Albuquerque | Eng. Computação  |         |
 | 2004712 | José William Rodrigues Pereira     | Ciência de Dados |         |
 | 2009113 | Marcelo Martins Ribeiro dos Santos | Eng. Computação  | Barueri |
-| 2008166 | Rideu Santos Barros da Silva       | Ciência de Dados |         |
+| 2008166 | Rideu Santos Barros da Silva       | Ciência de Dados | Jandira |
 | 1835382 | João Clemente Olivera Moraes       |                  |         |
 | 1600438 | Lucas Muniz Moreira                |  Eng. Computação |         |
 ||||
