@@ -9,7 +9,7 @@ Neste exemplo estamos contruindo um app
 Com o [node](https://nodejs.org/en/) instalado, e dentro da pasta [front](/dev/front/), execute:
 
 ```
-npm init
+npm install
 ```
 
 E siga os passos abaixo para testar e deploy.
