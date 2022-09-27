@@ -8,7 +8,7 @@ CREATE TABLE IF NOT EXISTS tb_client_id (
 );
 
 CREATE TABLE IF NOT EXISTS tb_users_id (
-  ID Serial PRIMARY KEY,
+  ID SERIAL PRIMARY KEY,
   first_name varchar(50) NOT NULL,
   last_name varchar(50) NOT NULL,
   email varchar(100) NOT NULL,
