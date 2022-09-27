@@ -13,7 +13,7 @@ Este projeto tem por objetivo possibilitar um registro e acompanhamento mais det
 |:-------:|:----------------------------------:|:----------------:|:--------|
 | 2012272 | André Santos Barros da Silva       | Ciência de Dados |         |
 | 1712316 | José Vilson Bezerra de Albuquerque | Eng. Computação  |         |
-| 2004712 | José William Rodrigues Pereira     | Ciência de Dados |         |
+| 2004712 | José William Rodrigues Pereira     | Ciência de Dados | Barueri |
 | 2009113 | Marcelo Martins Ribeiro dos Santos | Eng. Computação  | Barueri |
 | 2008166 | Rideu Santos Barros da Silva       | Ciência de Dados |         |
 | 1835382 | João Clemente Olivera Moraes       |                  |         |
