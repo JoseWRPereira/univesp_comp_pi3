@@ -36,6 +36,8 @@ Container (*Docker*) para banco de dados
 
 #Execute o comando para subir o ambiente
 docker-compose up
+# ou 
+docker compose up
 
 
 # Após reiniciar o docker, pode ocorrer problemas, então remova a pasta
@@ -43,6 +45,8 @@ sudo rm -rf postgres-data/
 
 # E remova o volume criado pelo docker
 docker-compose down -v
+# ou
+docker compose down -v
 
 ```
 
