@@ -3,17 +3,19 @@ from flask import request, json, jsonify, make_response
 from flask_restful import Resource, Api
 import uuid
 from werkzeug.security import generate_password_hash, check_password_hash
-# from app.api.auth import Auth, auth, Validate
 from app.database.db import DBConn
-
+from .auth import auth_required
 
 
 users_bp = Blueprint('users_bp',__name__)
 api = Api(users_bp)
 
 
+
+
+
 class Users(Resource):
-    # @auth.login_required
+    @auth_required
     def get(self):
         db = DBConn()
         users = db.sql_fetch("SELECT id,public_id, first_name,last_name,email,pass from tb_users_id ORDER BY id ASC;")
@@ -28,8 +30,8 @@ class Users(Resource):
         return response
 
 
-    # @auth.login_required
     def post(self):
+    # @auth_required
         db = DBConn()
         # dados = request.get_json()
         dados = json.loads(request.data)
