@@ -56,6 +56,7 @@ class Users(Resource):
 
 
 class User(Resource):
+    @auth_required
     def get(self, public_id):
         try:
             db = DBConn()
@@ -69,7 +70,7 @@ class User(Resource):
             response = {"Status": "erro", "message": message }
         return jsonify(response)
 
-    # @auth.login_required
+    # @auth_required
     def put(self, public_id):
         try:
             db = DBConn()

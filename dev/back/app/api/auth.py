@@ -7,7 +7,7 @@ from app.database.db import DBConn
 def user_auth_by_email(username):
     try:
         db = DBConn()
-        user_exists = db.sql_fetch("SELECT email,pass FROM tb_users_id WHERE email='{}';".format(username))
+        user_exists = db.sql_fetch("SELECT email,password FROM tb_users_id WHERE email='{}';".format(username))
         header = ('username','password')
         return dict( zip(header, user_exists.pop()))
     except:
