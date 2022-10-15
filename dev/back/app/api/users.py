@@ -48,7 +48,7 @@ class Users(Resource):
                             datetime.datetime.today(),
                             False ))
             mensagem = "Usuário com e-mail {} criado com sucesso!".format(dados['email'])
-            response = {"Status": "erro", "message": mensagem }
+            response = {"Status": "Sucesso", "message": mensagem }
         else:
             mensagem = "Usuário com e-mail {} já está cadastrado!".format(dados['email'])
             response = {"Status": "erro", "message": mensagem }
