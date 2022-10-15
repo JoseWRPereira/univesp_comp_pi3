@@ -58,11 +58,61 @@ docker compose down -v
 
 | Figura 2: Carregando Ambiente Virtual|
 |:-------------------:|
-|![Virtual environment](dev/back/img/gif/02-source_env_bin_activate.gif)|
+|![Virtual environment](https://github.com/JoseWRPereira/univesp_comp_pi3/blob/e3721e16acf4d2e239296fff14a410635fac69ab/dev/back/img/gif/02-source_env_bin_activate.gif)|
 |Fonte: Próprio autor |
 
 
-| Figura: |
+| Figura 3: Primeiro acesso via GET à tabela de usuários |
 |:-------------------:|
-||
+|![GET users](https://github.com/JoseWRPereira/univesp_comp_pi3/blob/e3721e16acf4d2e239296fff14a410635fac69ab/dev/back/img/gif/10-get_users.gif)|
+|Fonte: Próprio autor |
+
+
+
+| Figura 4: Novo usuário |
+|:-------------------:|
+|![Novo usuário](https://github.com/JoseWRPereira/univesp_comp_pi3/blob/e3721e16acf4d2e239296fff14a410635fac69ab/dev/back/img/gif/11-post_newuser.gif)|
+|Fonte: Próprio autor |
+
+
+| Figura 5: Visualizando novo usuário |
+|:-------------------:|
+|![Visualizando novo usuário](https://github.com/JoseWRPereira/univesp_comp_pi3/blob/e3721e16acf4d2e239296fff14a410635fac69ab/dev/back/img/gif/12-newuser_1.gif)|
+|Fonte: Próprio autor |
+
+
+
+| Figura 6: Adicionando usuário |
+|:-------------------:|
+|![Add usuário](https://github.com/JoseWRPereira/univesp_comp_pi3/blob/e3721e16acf4d2e239296fff14a410635fac69ab/dev/back/img/gif/13-newuser2.gif)|
+|Fonte: Próprio autor |
+
+
+
+| Figura 7: Visualizando usuários no navegador |
+|:-------------------:|
+|![Usuários no navegador](https://github.com/JoseWRPereira/univesp_comp_pi3/blob/e3721e16acf4d2e239296fff14a410635fac69ab/dev/back/img/gif/14-navegador.gif)|
+|Fonte: Próprio autor |
+
+
+
+| Figura 8: Autenticação de usuário|
+|:-------------------:|
+|![](https://github.com/JoseWRPereira/univesp_comp_pi3/blob/e3721e16acf4d2e239296fff14a410635fac69ab/dev/back/img/gif/15-get_user_publicid.gif)|
+|Fonte: Próprio autor |
+
+
+| Figura 9: Autenticação de usuário |
+|:-------------------:|
+|![Autenticação](https://github.com/JoseWRPereira/univesp_comp_pi3/blob/59433cd11424a42521ad35f8886a8951241da72b/dev/back/img/gif/16_autenticacao.gif)|
+|Fonte: Próprio autor |
+
+| Figura 10: Alteração de parâmetro em usuário |
+|:-------------------:|
+|![Alteração de parâmetros](https://github.com/JoseWRPereira/univesp_comp_pi3/blob/59433cd11424a42521ad35f8886a8951241da72b/dev/back/img/gif/17_alteracao.gif)|
+|Fonte: Próprio autor |
+
+| Figura 11: Exclusão de usuário |
+|:-------------------:|
+|![Excluir usuário](https://github.com/JoseWRPereira/univesp_comp_pi3/blob/59433cd11424a42521ad35f8886a8951241da72b/dev/back/img/gif/18_exclusao.gif)|
 |Fonte: Próprio autor |
