@@ -193,3 +193,8 @@ front/node_modules
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+#====== docker
+postgres-data/*
+dev/postgres-data/*
